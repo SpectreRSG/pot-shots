@@ -3,6 +3,7 @@
     "Typed by hand from the Two Thin Coats Paint Conversion Chart (Wave 1).",
     "Names are exactly as printed on the chart. 'citadelNameFixes' maps the chart's spelling",
     "to the Citadel name used in our data, where the two differ.",
+    "'hex' is measured from each swatch picture on the chart: an approximate screen color, like every color on the site.",
     "The 6 washes on the chart are left out: Pot Shots only covers base and layer paints.",
     "Set 'enabled' to false to hide the chart from the site without deleting anything."
   ],
@@ -19,325 +20,379 @@
       "twoThinCoats": "Berserker Red",
       "tone": "shadow",
       "citadel": "Word Bearers Red",
-      "armyPainter": "Chaotic Red"
+      "armyPainter": "Chaotic Red",
+      "hex": "#4d1a16"
     },
     {
       "twoThinCoats": "Sanguine Scarlet",
       "tone": "midtone",
       "citadel": "Mephiston Red",
-      "armyPainter": "Vampire Red"
+      "armyPainter": "Vampire Red",
+      "hex": "#971714"
     },
     {
       "twoThinCoats": "Demon Red",
       "tone": "highlight",
       "citadel": "Evil Sun Red",
-      "armyPainter": "Pure Red"
+      "armyPainter": "Pure Red",
+      "hex": "#d31217"
     },
     {
       "twoThinCoats": "Dark Sun Yellow",
       "tone": "shadow",
       "citadel": "Averland Sunset",
-      "armyPainter": "Basilisk Brown"
+      "armyPainter": "Basilisk Brown",
+      "hex": "#c48639"
     },
     {
       "twoThinCoats": "Skulker Yellow",
       "tone": "midtone",
       "citadel": "Yriel Yellow",
-      "armyPainter": "Daemonic Yellow"
+      "armyPainter": "Daemonic Yellow",
+      "hex": "#f59e00"
     },
     {
       "twoThinCoats": "Yellow Flame",
       "tone": "highlight",
       "citadel": "Flash Gitz Yellow",
-      "armyPainter": "Babe Blonde"
+      "armyPainter": "Babe Blonde",
+      "hex": "#f8af2c"
     },
     {
       "twoThinCoats": "Marine Blue",
       "tone": "shadow",
       "citadel": "Macragge Blue",
-      "armyPainter": "Dark Sky"
+      "armyPainter": "Dark Sky",
+      "hex": "#44496f"
     },
     {
       "twoThinCoats": "Elysium Blue",
       "tone": "midtone",
       "citadel": "Calgar Blue",
-      "armyPainter": "Ultramarine Blue"
+      "armyPainter": "Ultramarine Blue",
+      "hex": "#5179ac"
     },
     {
       "twoThinCoats": "Celestial Blue",
       "tone": "highlight",
       "citadel": "Blue Horror",
-      "armyPainter": "Electric Blue"
+      "armyPainter": "Electric Blue",
+      "hex": "#6992c0"
     },
     {
       "twoThinCoats": "Rust Orange",
       "tone": "shadow",
       "citadel": "Squig Orange",
-      "armyPainter": "Dry Rust"
+      "armyPainter": "Dry Rust",
+      "hex": "#ba4d38"
     },
     {
       "twoThinCoats": "Fanatic Orange",
       "tone": "midtone",
       "citadel": "Troll Slayer Orange",
-      "armyPainter": "Lava Orange"
+      "armyPainter": "Lava Orange",
+      "hex": "#da4a2f"
     },
     {
       "twoThinCoats": "Orange Flare",
       "tone": "highlight",
       "citadel": "Fire Dragon Bright",
-      "armyPainter": "Mythical Orange"
+      "armyPainter": "Mythical Orange",
+      "hex": "#eb7140"
     },
     {
       "twoThinCoats": "Wyvern Green",
       "tone": "shadow",
       "citadel": "Caliban Green",
-      "armyPainter": "Angel Green"
+      "armyPainter": "Angel Green",
+      "hex": "#404a42"
     },
     {
       "twoThinCoats": "Emerald Green",
       "tone": "midtone",
       "citadel": "Warpstone Glow",
-      "armyPainter": "Greenskin"
+      "armyPainter": "Greenskin",
+      "hex": "#3c5c44"
     },
     {
       "twoThinCoats": "Ethereal Green",
       "tone": "highlight",
       "citadel": "Moot Green",
-      "armyPainter": "Jungle Green"
+      "armyPainter": "Jungle Green",
+      "hex": "#56802e"
     },
     {
       "twoThinCoats": "Amethyst Rayne",
       "tone": "shadow",
       "citadel": "Xereus Purple",
-      "armyPainter": "Alien Purple"
+      "armyPainter": "Alien Purple",
+      "hex": "#524269"
     },
     {
       "twoThinCoats": "Sorceror's Cloak",
       "tone": "midtone",
       "citadel": "Genestealer Purple",
-      "armyPainter": "Oozing Purple"
+      "armyPainter": "Oozing Purple",
+      "hex": "#79588d"
     },
     {
       "twoThinCoats": "Runic Purple",
       "tone": "highlight",
       "citadel": "Kakophoni Purple",
-      "armyPainter": "Toxic Boils"
+      "armyPainter": "Toxic Boils",
+      "hex": "#9c8db4"
     },
     {
       "twoThinCoats": "Doom Death Black",
       "tone": "shadow",
       "citadel": "Abaddon Black",
-      "armyPainter": "Matt Black"
+      "armyPainter": "Matt Black",
+      "hex": "#3d3936"
     },
     {
       "twoThinCoats": "Death Reaper",
       "tone": "midtone",
       "citadel": "Corvus Black",
-      "armyPainter": "Necromancer Cloak"
+      "armyPainter": "Necromancer Cloak",
+      "hex": "#434142"
     },
     {
       "twoThinCoats": "Dungeon Stone Grey",
       "tone": "highlight",
       "citadel": "Mechanicus Standard Grey",
-      "armyPainter": "Dungeon Grey"
+      "armyPainter": "Dungeon Grey",
+      "hex": "#5d5e60"
     },
     {
       "twoThinCoats": "Wizard Grey",
       "tone": "shadow",
       "citadel": "Dawnstone",
-      "armyPainter": "Uniform Grey"
+      "armyPainter": "Uniform Grey",
+      "hex": "#6d6b6c"
     },
     {
       "twoThinCoats": "Carcharodon Grey",
       "tone": "midtone",
       "citadel": "Administratum Grey",
-      "armyPainter": "Ash Grey"
+      "armyPainter": "Ash Grey",
+      "hex": "#959597"
     },
     {
       "twoThinCoats": "White Star",
       "tone": "highlight",
       "citadel": "White Scar",
-      "armyPainter": "Matt White"
+      "armyPainter": "Matt White",
+      "hex": "#f9f9f9"
     },
     {
       "twoThinCoats": "Barbarian Brawn",
       "tone": "shadow",
       "citadel": "Bugman's Glow",
-      "armyPainter": "Fur Brown"
+      "armyPainter": "Fur Brown",
+      "hex": "#8f5f55"
     },
     {
       "twoThinCoats": "Dwarven Skin",
       "tone": "midtone",
       "citadel": "Cadian Fleshtone",
-      "armyPainter": "Tanned Skin"
+      "armyPainter": "Tanned Skin",
+      "hex": "#b07d62"
     },
     {
       "twoThinCoats": "Elven Skin",
       "tone": "highlight",
       "citadel": "Kislev Flesh",
-      "armyPainter": "Kobold Skin"
+      "armyPainter": "Kobold Skin",
+      "hex": "#c49875"
     },
     {
       "twoThinCoats": "Cuirass Leather",
       "tone": "shadow",
       "citadel": "Rhinox Hide",
-      "armyPainter": "Oak Brown"
+      "armyPainter": "Oak Brown",
+      "hex": "#51433a"
     },
     {
       "twoThinCoats": "Boar Hide",
       "tone": "midtone",
       "citadel": "Doombull Brown",
-      "armyPainter": "Dirt Splatter"
+      "armyPainter": "Dirt Splatter",
+      "hex": "#734538"
     },
     {
       "twoThinCoats": "Fur Cloak",
       "tone": "highlight",
       "citadel": "Tuskgor Fur",
-      "armyPainter": "Leather Brown"
+      "armyPainter": "Leather Brown",
+      "hex": "#92534e"
     },
     {
       "twoThinCoats": "Dragon Fang",
       "tone": "shadow",
       "citadel": "Zandri Dust",
-      "armyPainter": "Skeleton Bone"
+      "armyPainter": "Skeleton Bone",
+      "hex": "#9e8461"
     },
     {
       "twoThinCoats": "Skeleton Legion",
       "tone": "midtone",
       "citadel": "Ushabti Bone",
-      "armyPainter": "Skeleton Bone"
+      "armyPainter": "Skeleton Bone",
+      "hex": "#af966d"
     },
     {
       "twoThinCoats": "Vampire Fang",
       "tone": "highlight",
       "citadel": "Screaming Skull",
-      "armyPainter": "Skeleton Bone"
+      "armyPainter": "Skeleton Bone",
+      "hex": "#ccb99b"
     },
     {
       "twoThinCoats": "Griffon Claw",
       "tone": "shadow",
       "citadel": "Rakarth Flesh",
-      "armyPainter": "Banshee Brown"
+      "armyPainter": "Banshee Brown",
+      "hex": "#9e9085"
     },
     {
       "twoThinCoats": "Ivory Tusk",
       "tone": "midtone",
       "citadel": "Pallid Wych Flesh",
-      "armyPainter": "Brainmatter Beige"
+      "armyPainter": "Brainmatter Beige",
+      "hex": "#d2c8bf"
     },
     {
       "twoThinCoats": "Trooper White",
       "tone": "highlight",
       "citadel": "Corax White",
-      "armyPainter": "Spaceship Exterior"
+      "armyPainter": "Spaceship Exterior",
+      "hex": "#edebdf"
     },
     {
       "twoThinCoats": "Dust Bowl",
       "tone": "shadow",
       "citadel": "Steel Legion Drab",
-      "armyPainter": "Basilisk Brown"
+      "armyPainter": "Basilisk Brown",
+      "hex": "#7d634a"
     },
     {
       "twoThinCoats": "Sandstone",
       "tone": "midtone",
       "citadel": "Morghast Bone",
-      "armyPainter": "Desert Yellow"
+      "armyPainter": "Desert Yellow",
+      "hex": "#927b69"
     },
     {
       "twoThinCoats": "Temple Stone",
       "tone": "highlight",
       "citadel": "Karak Stone",
-      "armyPainter": "Skeleton Bone"
+      "armyPainter": "Skeleton Bone",
+      "hex": "#a39179"
     },
     {
       "twoThinCoats": "Sir Coates Silver",
       "tone": "shadow",
       "citadel": "Leadbelcher",
-      "armyPainter": "Gun Metal"
+      "armyPainter": "Gun Metal",
+      "hex": "#373737"
     },
     {
       "twoThinCoats": "Plate Armour",
       "tone": "midtone",
       "citadel": "Ironbreaker",
-      "armyPainter": "Plate Mail Metal"
+      "armyPainter": "Plate Mail Metal",
+      "hex": "#515251"
     },
     {
       "twoThinCoats": "Mythril Blade",
       "tone": "highlight",
       "citadel": "Stormhost Silver",
-      "armyPainter": "Shining Silver"
+      "armyPainter": "Shining Silver",
+      "hex": "#575858"
     },
     {
       "twoThinCoats": "Spartan Bronze",
       "tone": "shadow",
       "citadel": "Balthazar Gold",
-      "armyPainter": "True Copper"
+      "armyPainter": "True Copper",
+      "hex": "#49372b"
     },
     {
       "twoThinCoats": "Dragon's Gold",
       "tone": "midtone",
       "citadel": "Retributor Armour",
-      "armyPainter": "Greedy Gold"
+      "armyPainter": "Greedy Gold",
+      "hex": "#7b6537"
     },
     {
       "twoThinCoats": "Glistening Gold",
       "tone": "highlight",
       "citadel": "Liberator Gold",
-      "armyPainter": "Bright Gold"
+      "armyPainter": "Bright Gold",
+      "hex": "#615644"
     },
     {
       "twoThinCoats": "Royal Cloak",
       "tone": "shadow",
       "citadel": "Barak-Nar Burgundy",
-      "armyPainter": "Crusted Sore"
+      "armyPainter": "Crusted Sore",
+      "hex": "#5c4349"
     },
     {
       "twoThinCoats": "Sword Hilt Burgundy",
       "tone": "midtone",
       "citadel": "Screamer Pink",
-      "armyPainter": "Wasteland Soil"
+      "armyPainter": "Wasteland Soil",
+      "hex": "#773d4b"
     },
     {
       "twoThinCoats": "Glistening Gums",
       "tone": "highlight",
       "citadel": "Pink Horror",
-      "armyPainter": "Wasteland Soil"
+      "armyPainter": "Wasteland Soil",
+      "hex": "#99587a"
     },
     {
       "twoThinCoats": "Cold Corpse Blue",
       "tone": "shadow",
       "citadel": "The Fang",
-      "armyPainter": "Dungeon Grey"
+      "armyPainter": "Dungeon Grey",
+      "hex": "#51565c"
     },
     {
       "twoThinCoats": "Wolf Grey",
       "tone": "midtone",
       "citadel": "Russ Grey",
-      "armyPainter": "Wolf Grey"
+      "armyPainter": "Wolf Grey",
+      "hex": "#637687"
     },
     {
       "twoThinCoats": "Gravestone Blue",
       "tone": "highlight",
       "citadel": "Fenrisian Grey",
-      "armyPainter": "Ice Storm"
+      "armyPainter": "Ice Storm",
+      "hex": "#7b8996"
     },
     {
       "twoThinCoats": "Scorched Earth",
       "tone": "shadow",
       "citadel": "Dryad Bark",
-      "armyPainter": "Oak Brown"
+      "armyPainter": "Oak Brown",
+      "hex": "#5a4c49"
     },
     {
       "twoThinCoats": "Ancient Forest",
       "tone": "midtone",
       "citadel": "Gorthor Brown",
-      "armyPainter": "Werewolf Fur"
+      "armyPainter": "Werewolf Fur",
+      "hex": "#725b53"
     },
     {
       "twoThinCoats": "Wasteland Brown",
       "tone": "highlight",
       "citadel": "Baneblade Brown",
-      "armyPainter": "Monster Brown"
+      "armyPainter": "Monster Brown",
+      "hex": "#866c5d"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 Pick a Citadel base or layer paint and see the closest colors from other miniature paint brands:
 Army Painter, Vallejo, AK Interactive, Pro Acryl, Scale75 and Reaper. When the Citadel paint is on the official
-Two Thin Coats conversion chart, the app also shows the Two Thin Coats paint it lines up with.
+Two Thin Coats conversion chart, Two Thin Coats appears as a brand too, showing the chart's pick.
 
 > **Colors are approximate.** Every hex code is a screen color, not a measurement of real paint.
 > Paint looks different in person, on different screens, and wet vs. dry. Treat matches as a good
@@ -102,9 +102,11 @@ Full license texts are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 were typed by hand into `src/data/two-thin-coats-chart.json`, with names exactly as printed and a
 short `citadelNameFixes` list where the chart spells a Citadel paint differently (for example
 "Evil Sun Red" for Evil Sunz Scarlet). The chart's 6 washes are left out. The site credits and links
-the chart. Permission has been requested from the Duncan Rhodes Painting Academy; if they ask for it
-to be removed, set `"enabled": false` in that file and push. No Two Thin Coats colors are shown,
-because there is no openly licensed color data for them.
+the chart. Each swatch color was measured from the chart picture, so it is approximate (metallics
+most of all, since their swatches are shiny gradients). The chart's pick is always shown, even when
+its color is not close, because the paint maker chose it. Permission has been requested from the
+Duncan Rhodes Painting Academy; if they ask for it to be removed, set `"enabled": false` in that
+file and push.
 
 The code license for Pot Shots itself hasn't been chosen yet.
 
