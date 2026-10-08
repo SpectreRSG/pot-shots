@@ -2,7 +2,7 @@
 
 import { describe } from "../matching/findMatches.js";
 import { METHODS } from "../matching/methods.js";
-import { saveCollapsed } from "../storage.js";
+import { collapsibleSection } from "./collapsible.js";
 import { reportLink } from "./reportLink.js";
 
 // groups    = the result of findMatches()
@@ -16,39 +16,8 @@ export function renderResults(container, { chosen, groups, methodKey, collapsed 
   }
 
   for (const group of groups) {
-    const heading = document.createElement("h3");
-    heading.className = "brand-head";
-    const toggle = document.createElement("button");
-    toggle.type = "button";
-    toggle.className = "brand-toggle";
-    const chev = document.createElement("span");
-    chev.className = "chev";
-    chev.setAttribute("aria-hidden", "true");
-    const name = document.createElement("span");
-    name.textContent = group.brand;
-    const count = document.createElement("span");
-    count.className = "count";
-    count.textContent = "(" + group.matches.length + ")";
-    toggle.append(chev, name, count);
-    heading.appendChild(toggle);
-
-    const body = document.createElement("div");
-    body.className = "brand-body";
-
-    // Show the section open or closed, based on what we remembered.
-    const applyState = () => {
-      const isCollapsed = collapsed.has(group.brand);
-      body.hidden = isCollapsed;
-      toggle.setAttribute("aria-expanded", String(!isCollapsed));
-      chev.textContent = isCollapsed ? "▸" : "▾";
-    };
-    applyState();
-
-    toggle.addEventListener("click", () => {
-      if (collapsed.has(group.brand)) collapsed.delete(group.brand);
-      else collapsed.add(group.brand);
-      saveCollapsed(collapsed);
-      applyState();
+    const { heading, body } = collapsibleSection({
+      tag: "h3", key: group.brand, label: group.brand, count: group.matches.length, collapsed
     });
 
     for (const match of group.matches) {

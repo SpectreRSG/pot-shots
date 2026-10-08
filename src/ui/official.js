@@ -1,6 +1,8 @@
 // Draw the "Two Thin Coats conversion" box. Hidden when the chart has no entry.
+// It can be closed like a brand section, and the page remembers that choice.
 
 import { reportLink } from "./reportLink.js";
+import { collapsibleSection } from "./collapsible.js";
 
 // How each tone is described on the page.
 const TONES = {
@@ -9,14 +11,18 @@ const TONES = {
   highlight: "Highlight (lightest of the three tones)"
 };
 
-export function renderOfficial(container, { chosen, conversions, chart }) {
+// The name saved when the user closes this section (kept apart from brand names).
+const SECTION_KEY = "section:two-thin-coats";
+
+export function renderOfficial(container, { chosen, conversions, chart, collapsed }) {
   container.replaceChildren();
   container.hidden = conversions.length === 0;
   if (container.hidden) return;
 
-  const heading = document.createElement("h2");
-  heading.textContent = "Two Thin Coats conversion";
-  container.appendChild(heading);
+  const { heading, body } = collapsibleSection({
+    tag: "h2", key: SECTION_KEY, label: "Two Thin Coats conversion", collapsed
+  });
+  container.append(heading, body);
 
   for (const c of conversions) {
     const card = document.createElement("div");
@@ -33,7 +39,7 @@ export function renderOfficial(container, { chosen, conversions, chart }) {
       paint: `Two Thin Coats "${c.twoThinCoats}"`,
       context: `Official chart conversion for Citadel "${chosen.name}".`
     }, c.twoThinCoats));
-    container.appendChild(card);
+    body.appendChild(card);
   }
 
   // Credit the chart, and pass on its own warning.
@@ -46,5 +52,5 @@ export function renderOfficial(container, { chosen, conversions, chart }) {
     "From the ", link, ` (${chart.credit}). The chart notes that these are not exact matches ` +
     "between brands, so your model may look a little different."
   );
-  container.appendChild(credit);
+  body.appendChild(credit);
 }

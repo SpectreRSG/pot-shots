@@ -103,6 +103,7 @@ h2 { font-size: 1.15rem; margin: 24px 0 10px; }
 .guide p, .guide li { margin: 4px 0; }
 .guide ul, .guide ol { padding-left: 20px; margin: 4px 0; }
 .brand-head { font-size: 0.95rem; margin: 14px 0 6px; }
+h2.brand-head { font-size: 1.15rem; margin: 24px 0 6px; }
 
 /* Collapsible brand headings */
 .brand-toggle {

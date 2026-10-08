@@ -35,7 +35,7 @@ function showResults() {
   }, chosen.name));
 
   // The paint maker's own swap, when the Two Thin Coats chart lists this paint.
-  renderOfficial(officialBox, { chosen, conversions: findConversions(chosen.name, ttcChart), chart: ttcChart });
+  renderOfficial(officialBox, { chosen, conversions: findConversions(chosen.name, ttcChart), chart: ttcChart, collapsed });
 
   const groups = findMatches(chosen, ALL_PAINTS, methodKey);
   renderResults(resultsBox, { chosen, groups, methodKey, collapsed });
