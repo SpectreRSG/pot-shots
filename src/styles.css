@@ -131,3 +131,23 @@ h2 { font-size: 1.15rem; margin: 24px 0 10px; }
 .chart-credit { color: var(--muted); font-size: 0.85rem; margin: 0 0 8px; }
 .chart-credit a { color: var(--accent); }
 .chart-credit a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* Donation box */
+.support {
+  margin-top: 28px; padding: 4px 16px 16px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+}
+.support h2 { margin: 14px 0 4px; }
+.support p { margin: 0 0 12px; }
+.support-button {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 8px 18px;
+  font-weight: bold; text-decoration: none; color: var(--bg); background: var(--accent); border-radius: 8px;
+}
+.support-button:hover { text-decoration: underline; }
+.support-button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+/* Text for screen readers only */
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
