@@ -11,6 +11,8 @@ import { reportLink } from "./ui/reportLink.js";
 import { addChartGroup } from "./matching/officialConversions.js";
 import ttcChart from "./data/two-thin-coats-chart.json";
 
+const search = document.getElementById("paint-search");
+const searchStatus = document.getElementById("search-status");
 const picker = document.getElementById("paint-picker");
 const chosenBox = document.getElementById("chosen");
 const chosenHex = document.getElementById("chosen-hex");
@@ -38,6 +40,25 @@ function showResults() {
 }
 
 fillSourcePicker(picker, sourcePaints);
+
+// Filter the dropdown letter by letter as the user types in the search box.
+search.addEventListener("input", () => {
+  const query = search.value.trim();
+  const previous = picker.value;
+  const shown = fillSourcePicker(picker, sourcePaints, query);
+
+  if (shown === 0) {
+    // Nothing matches: keep the last results on screen and say so.
+    searchStatus.textContent = `No Citadel paints match "${query}".`;
+    return;
+  }
+  searchStatus.textContent = query ? (shown === 1 ? "1 paint matches." : `${shown} paints match.`) : "";
+
+  // Keep the current paint if it still matches; otherwise jump to the first match.
+  const stillThere = [...picker.options].some(o => o.value === previous);
+  picker.value = stillThere ? previous : picker.options[0].value;
+  if (picker.value !== previous) showResults();
+});
 
 // Run showResults every time the dropdown changes, and once at the start.
 picker.addEventListener("change", showResults);

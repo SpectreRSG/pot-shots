@@ -35,7 +35,7 @@ h1 { font-size: 1.7rem; margin: 0 0 4px; }
 .intro { color: var(--muted); margin: 0 0 20px; }
 
 label { display: block; font-weight: bold; margin-bottom: 6px; }
-select {
+select, input[type="search"] {
   width: 100%;
   padding: 12px;
   font: inherit;
@@ -44,7 +44,8 @@ select {
   border: 1px solid var(--line);
   border-radius: 8px;
 }
-select:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+select:focus-visible, input[type="search"]:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.search-status { min-height: 1.5em; margin: 4px 0 10px; color: var(--muted); font-size: 0.9rem; }
 
 /* The big swatch: the one memorable thing on the page */
 .chosen {

@@ -28,6 +28,7 @@ npm run build        # make the publishable site in dist/
 |---|---|
 | `index.html` | The page structure. |
 | `src/main.js` | Starts the app and connects the pieces. |
+| `src/search.js` | The search box rule: which paint names match what was typed. |
 | `src/color/` | Color math: hex to RGB to CIELAB, and the two distance measures. |
 | `src/matching/` | The matching rules and the cutoffs for each method. |
 | `src/ui/` | Drawing the dropdown, the results, and the "Report a problem" links. |
@@ -112,7 +113,6 @@ The code license for Pot Shots itself hasn't been chosen yet.
 
 ## Ideas for later
 
-- **Search box:** type a paint name instead of scrolling the dropdown.
 - **CIEDE2000:** a third, more accurate method. Published test values make it easy to verify.
 - **Paints I own:** save a list on the device and highlight matches you already have.
 - **Filter by type:** base, layer or metallic.

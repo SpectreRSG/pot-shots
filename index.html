@@ -13,6 +13,11 @@
   <h1>Pot Shots</h1>
   <p class="intro">Pick a Citadel paint. See the closest colors from other brands.</p>
 
+  <label for="paint-search">Find a Citadel paint</label>
+  <input type="search" id="paint-search" placeholder="Type a name, like Mephiston"
+         autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="search-status">
+  <p id="search-status" class="search-status" role="status"></p>
+
   <label for="paint-picker">Citadel paint (base and layer)</label>
   <select id="paint-picker"></select>
 
@@ -36,7 +41,7 @@
 
     <h3>How to use it</h3>
     <ol>
-      <li>Pick your Citadel paint from the dropdown.</li>
+      <li>Pick your Citadel paint from the dropdown, or start typing its name in the search box to find it fast.</li>
       <li>Look at the big color block. That is the color you want.</li>
       <li>Compare it with the small swatches below. Closer to the big block means a better match.</li>
       <li>Note the brand and paint name, then look for that paint in a shop.</li>
