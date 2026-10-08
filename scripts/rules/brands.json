@@ -1,0 +1,65 @@
+{
+  "_readme": [
+    "Which paints to keep from each source. The app shows brands in this order.",
+    "Catalog sources (JSON): a paint is kept if it has one of 'keepRoles'",
+    "and none of 'excludeRoles'.",
+    "Table sources (Markdown): a paint is kept if its range is in 'keepRanges'",
+    "and its name contains none of 'excludeNameWords' (whole words only)."
+  ],
+  "excludeRoles": ["contrast", "shade", "wash", "technical", "dry", "speedpaint", "air", "ink"],
+  "brands": [
+    {
+      "id": "citadel",
+      "name": "Citadel",
+      "source": "minipainter",
+      "path": "data/catalog/citadel.json",
+      "keepRoles": ["base", "layer"]
+    },
+    {
+      "id": "army-painter",
+      "name": "Army Painter",
+      "source": "minipainter",
+      "path": "data/catalog/army_painter.json",
+      "keepRoles": ["base", "layer", "metallic"]
+    },
+    {
+      "id": "vallejo",
+      "name": "Vallejo",
+      "source": "minipainter",
+      "path": "data/catalog/vallejo.json",
+      "keepRoles": ["base", "layer", "metallic"]
+    },
+    {
+      "id": "ak-interactive",
+      "name": "AK Interactive",
+      "source": "minipainter",
+      "path": "data/catalog/ak_interactive.json",
+      "keepRoles": ["base", "layer", "metallic"]
+    },
+    {
+      "id": "pro-acryl",
+      "name": "Pro Acryl",
+      "source": "miniature-paints",
+      "path": "paints/Monument.md",
+      "keepRanges": ["Monument Pro Acrylic Paints", "Monument Pro Signature Series"],
+      "excludeNameWords": ["Fluorescent", "Transparent", "Medium"]
+    },
+    {
+      "id": "scale75",
+      "name": "Scale75",
+      "source": "miniature-paints",
+      "path": "paints/Scale75.md",
+      "keepRanges": ["Scale Color Range", "Fantasy & Games Range", "Warfront Range", "Artist Range", "Metal N Alchemy Range"],
+      "excludeNameWords": ["Ink", "Neon", "Fluorescent", "Transparent"],
+      "labelDuplicates": { "range": "Artist Range", "suffix": " (Artist)" }
+    },
+    {
+      "id": "reaper",
+      "name": "Reaper",
+      "source": "miniature-paints",
+      "path": "paints/Reaper.md",
+      "keepRanges": ["Master Series Paints Core Colors", "Master Series Paints Bones", "Master Series Paints Pathfinder"],
+      "excludeNameWords": ["Wash", "Primer", "Ink", "Fluorescent", "Transparent"]
+    }
+  ]
+}

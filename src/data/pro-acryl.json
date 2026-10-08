@@ -1,0 +1,618 @@
+{
+  "brand": "Pro Acryl",
+  "sample": false,
+  "source": {
+    "title": "miniature-paints",
+    "repo": "Arcturus5404/miniature-paints",
+    "commit": "22791a682e1d155da388f4f856cd7196cd9f2677",
+    "license": "MIT"
+  },
+  "paints": [
+    {
+      "name": "Ben Komets Advanced Flesh Tone",
+      "hex": "#8f5d4c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ben Komets Dark Burgundy",
+      "hex": "#2e1b1b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ben Komets Dark Sea Ben",
+      "hex": "#09202e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ben Komets Green Oxide",
+      "hex": "#296155",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ben Komets Heavy Warm White",
+      "hex": "#f1d0a1",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ben Komets Petroleum Brown",
+      "hex": "#3b2313",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Black Brown",
+      "hex": "#2c2d28",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Black Green",
+      "hex": "#3f5f50",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blue",
+      "hex": "#0855a3",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blue Black",
+      "hex": "#517283",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bold Pyrrole Red",
+      "hex": "#a90f0f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bold Titanium White",
+      "hex": "#e7e9e4",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bright Gold",
+      "hex": "#bc9866",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Bright Ivory",
+      "hex": "#e7e8c8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bright Jade",
+      "hex": "#408c8e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bright Neutral Grey",
+      "hex": "#abaea7",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bright Pale Green",
+      "hex": "#d8f4e8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bright Warm Grey",
+      "hex": "#bbc0ac",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bright Yellow Green",
+      "hex": "#88b423",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bronze",
+      "hex": "#78685b",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Burgundy",
+      "hex": "#733739",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Burnt Orange",
+      "hex": "#802715",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Burnt Red",
+      "hex": "#631410",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Burnt Sienna",
+      "hex": "#ad4e32",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Camo Green",
+      "hex": "#365337",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Coal Black",
+      "hex": "#18191b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Copper",
+      "hex": "#ae7849",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Dark Blue",
+      "hex": "#142038",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Camo Green",
+      "hex": "#313c2c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Flesh",
+      "hex": "#674137",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Golden Brown",
+      "hex": "#a58f56",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Grey Blue",
+      "hex": "#184366",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Neutral Grey",
+      "hex": "#2a3235",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Purple",
+      "hex": "#1d2347",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Silver",
+      "hex": "#25292c",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Dark Umber",
+      "hex": "#423431",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Warm Grey",
+      "hex": "#464c4c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Faded Green",
+      "hex": "#9aa37f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Faded Plum",
+      "hex": "#c8b5d5",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Faded Ultramarine",
+      "hex": "#638ac1",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Flameon Bright Pale Yellow",
+      "hex": "#fff7cc",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Flameon Bright Yellow Ochre",
+      "hex": "#dda55b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Flameon Caramel Brown",
+      "hex": "#805f3e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Flameon Dark Green Brown",
+      "hex": "#614529",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Flameon Dark Orange Brown",
+      "hex": "#8d5c25",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Flameon Orange Brown",
+      "hex": "#805f3e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Golden Brown",
+      "hex": "#be9953",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Golden Yellow",
+      "hex": "#e9d035",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Green",
+      "hex": "#16864e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Grey Blue",
+      "hex": "#bce3f2",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ivory",
+      "hex": "#d5d0b3",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Jade",
+      "hex": "#03535a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Khaki",
+      "hex": "#ac9e6b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Light Bronze",
+      "hex": "#9c8d64",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Light Umber",
+      "hex": "#5e4433",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Magenta",
+      "hex": "#a14d6f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Mahogany",
+      "hex": "#261410",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Matt Cexwish Bone",
+      "hex": "#8d857e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Matt Cexwish Brown Grey",
+      "hex": "#4b4945",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Matt Cexwish Dark Bronze",
+      "hex": "#3f311f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Matt Cexwish Dark Crimson",
+      "hex": "#3e1714",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Matt Cexwish Dark Emerald",
+      "hex": "#194245",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Matt Cexwish Heavy Titanium White",
+      "hex": "#e6e6e6",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Neutral Grey",
+      "hex": "#5e5e5e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ninjon Dark Ivory",
+      "hex": "#b7b4a6",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ninjon Dark Magenta",
+      "hex": "#80303f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ninjon Dark Plum",
+      "hex": "#4e3b3d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ninjon Dark Warm Flesh",
+      "hex": "#c59157",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ninjon Red Grey",
+      "hex": "#837876",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ninjon Warm Brown",
+      "hex": "#6b4b38",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Olive Flesh",
+      "hex": "#ccc6ae",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Orange",
+      "hex": "#e56b20",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pale Pink",
+      "hex": "#e0cabf",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pale Yellow",
+      "hex": "#e8e7d2",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pink",
+      "hex": "#eba59f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Plum",
+      "hex": "#8e5384",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Purple",
+      "hex": "#63306b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rich Gold",
+      "hex": "#b47a30",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Rogue Hobbies Bismuth Yellow",
+      "hex": "#f9d967",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rogue Hobbies Bright Green",
+      "hex": "#12a361",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rogue Hobbies Dark Hot Pink",
+      "hex": "#c32c5b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rogue Hobbies Dark Turquoise",
+      "hex": "#167d94",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rogue Hobbies Orange Red",
+      "hex": "#e53941",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rogue Hobbies Ultramarine",
+      "hex": "#3d5eab",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Shadow Flesh",
+      "hex": "#8d5345",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Silver",
+      "hex": "#9a9e9d",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Sky Blue",
+      "hex": "#248ccb",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Tan Flesh",
+      "hex": "#c39f85",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Turquoise",
+      "hex": "#75f1f1",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Vince Venturella Beige Red",
+      "hex": "#a68e86",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Vince Venturella Dark Jade",
+      "hex": "#2c4855",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Vince Venturella Dark Yellow Green",
+      "hex": "#6a7546",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Vince Venturella Payne's Grey",
+      "hex": "#2d3844",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Vince Venturella Royal Purple",
+      "hex": "#3b3053",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Vince Venturella White Blue",
+      "hex": "#afbdba",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Warm Flesh",
+      "hex": "#f6c67c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Warm Grey",
+      "hex": "#54544a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Warm Yellow",
+      "hex": "#f6c847",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "White Gold",
+      "hex": "#9e9b8a",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Yellow Green",
+      "hex": "#879245",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Yellow Ochre",
+      "hex": "#ae7f31",
+      "type": "layer",
+      "metallic": false
+    }
+  ]
+}

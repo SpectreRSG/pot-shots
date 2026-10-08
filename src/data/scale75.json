@@ -1,0 +1,1602 @@
+{
+  "brand": "Scale75",
+  "sample": false,
+  "source": {
+    "title": "miniature-paints",
+    "repo": "Arcturus5404/miniature-paints",
+    "commit": "22791a682e1d155da388f4f856cd7196cd9f2677",
+    "license": "MIT"
+  },
+  "paints": [
+    {
+      "name": "Abyssal Blue",
+      "hex": "#292a2f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Adriatic Blue",
+      "hex": "#128a9b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "African Shadow",
+      "hex": "#56424b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Airnrhod Blue",
+      "hex": "#39398f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Aldebaran Red",
+      "hex": "#be331e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Alizarin Green",
+      "hex": "#26944b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Amarth Blue",
+      "hex": "#0582c5",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Amber Alchemy",
+      "hex": "#b89e85",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "American Olive",
+      "hex": "#736737",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Amethyst Alchemy",
+      "hex": "#9f8eb0",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Antares Red",
+      "hex": "#c11e21",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Anthartic Grey",
+      "hex": "#42424c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Arabic Shadow",
+      "hex": "#7c6833",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Arbuckles Brown",
+      "hex": "#3c2922",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ardenes Green",
+      "hex": "#566345",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Arphen Jade",
+      "hex": "#035d53",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Art Black",
+      "hex": "#101010",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Art White",
+      "hex": "#fefefe",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Artic Blue",
+      "hex": "#9fb3bc",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Artic Blue (Artist)",
+      "hex": "#888fa1",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Baal Crimson",
+      "hex": "#e11a39",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Basic Flesh",
+      "hex": "#d0b393",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Beherit Red",
+      "hex": "#e2390e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bering Blue",
+      "hex": "#6c8997",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Birch",
+      "hex": "#efd2b0",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Black",
+      "hex": "#2c2c2c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Black Forest Green",
+      "hex": "#004834",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Black Leather",
+      "hex": "#422a2a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Black Metal",
+      "hex": "#484848",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Blackert Brown",
+      "hex": "#b8825c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blood Red",
+      "hex": "#912727",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bloodfest Crimson",
+      "hex": "#6a033b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Boreal Green",
+      "hex": "#00563e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bosh Chesnut",
+      "hex": "#69452f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Braineater Azure",
+      "hex": "#676aaf",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Braun",
+      "hex": "#e5c89e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Brown Gray",
+      "hex": "#7b7170",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Brown Leather",
+      "hex": "#4d2c1d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Buff",
+      "hex": "#b29d82",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Burgundy Wine Red",
+      "hex": "#5a2212",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Burnt Sienna",
+      "hex": "#7c2d06",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Burnt Sienna Umber",
+      "hex": "#4c2a20",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Burnt Skin",
+      "hex": "#654023",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Burnt Umber",
+      "hex": "#51402c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Cantabric Blue",
+      "hex": "#164765",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Caribbean Blue",
+      "hex": "#75b6b0",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Caspian Blue",
+      "hex": "#2a4f58",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Chink Orange",
+      "hex": "#b2621b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Citrine Alchemy",
+      "hex": "#efe1c7",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Cobalt Blue",
+      "hex": "#005e91",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Cobalt Metal",
+      "hex": "#7fa2b5",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Cobalt Violet Grey",
+      "hex": "#73768b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Cokum Copper",
+      "hex": "#a37021",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Coral Red",
+      "hex": "#f73724",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Cork Brown",
+      "hex": "#9f8d78",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Cremeweiss",
+      "hex": "#fcfce0",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Crimsom",
+      "hex": "#c22335",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Brown Ochre",
+      "hex": "#1e1317",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Earth",
+      "hex": "#643722",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Prussian Blue",
+      "hex": "#252430",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Ultramarine",
+      "hex": "#32297a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dark Violet",
+      "hex": "#481a3f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Decay Black",
+      "hex": "#1c1c1c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Decayed Metal",
+      "hex": "#5d4038",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Deep Blue",
+      "hex": "#383b4a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Deep Ocean",
+      "hex": "#000b2b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Deep Red",
+      "hex": "#701b20",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Desert Yellow",
+      "hex": "#d9af75",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Despair Green",
+      "hex": "#17383d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dubai Brown",
+      "hex": "#583d22",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dunkelbraun Brown",
+      "hex": "#413028",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dunkelgelb 44",
+      "hex": "#ded1b1",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dunkelgelb Yellow",
+      "hex": "#cbb550",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dunkelgrau Gray",
+      "hex": "#57585a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dwarven Gold",
+      "hex": "#d68d2f",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Earth Green",
+      "hex": "#4a3c2f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Eclipse Grey",
+      "hex": "#363636",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Eldandil Violet",
+      "hex": "#2b1a3c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Elven Gold",
+      "hex": "#cdab47",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Emerald Alchemy",
+      "hex": "#78a098",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Emerald Green",
+      "hex": "#165341",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Fall Green",
+      "hex": "#c9d161",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Field Gray",
+      "hex": "#66736c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Field Grey 1",
+      "hex": "#39553c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Field Grey 2",
+      "hex": "#3f4c45",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Flat Black",
+      "hex": "#1c1c1c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Flight Blue",
+      "hex": "#01688b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Fuchsia",
+      "hex": "#aa336b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Garnet Alchemy",
+      "hex": "#88424d",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Gelbraun Brown",
+      "hex": "#d5ac74",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Gobi Brown",
+      "hex": "#6e5a3f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Goblin Flesh",
+      "hex": "#77b840",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Golden Flesh",
+      "hex": "#e2a76d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Golden Skin",
+      "hex": "#edc89c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Graphene Gray",
+      "hex": "#4a515b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Graphite",
+      "hex": "#8b8c87",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Grau",
+      "hex": "#e8d5c4",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Graugrun Gray",
+      "hex": "#a08848",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Green Grey",
+      "hex": "#2c3033",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Green Ochre",
+      "hex": "#948123",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Greenskin Flesh",
+      "hex": "#006f34",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Harvester Flesh",
+      "hex": "#d0a791",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hastur Purple",
+      "hex": "#740331",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Heavy Metal",
+      "hex": "#9c9da1",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Hellbound Flesh",
+      "hex": "#9cb1ac",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hiril Blue",
+      "hex": "#4aa9bf",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Huldra Blue",
+      "hex": "#234256",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hykey Yellow",
+      "hex": "#efd491",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Indian Shadow",
+      "hex": "#673d3f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Innsmouth Blue",
+      "hex": "#00596b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Intense Yellow",
+      "hex": "#f2cb02",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Irati Green",
+      "hex": "#008721",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Iroko",
+      "hex": "#b28f4d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ishtar Pink",
+      "hex": "#fc9363",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Jade Green",
+      "hex": "#2fbeaf",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Jorildyn Turquoise",
+      "hex": "#067da7",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kalahari Orange",
+      "hex": "#a3563c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kunzite Alchemy",
+      "hex": "#ca9fbb",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Leaden Sky",
+      "hex": "#404f70",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lemon Yellow",
+      "hex": "#ebea52",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lendanis Grey",
+      "hex": "#8b8da4",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Light Moss Green",
+      "hex": "#61701b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Light Skin",
+      "hex": "#e2b890",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Light Skin (Artist)",
+      "hex": "#d3b5ad",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Light Sky",
+      "hex": "#7890b4",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Light Ultramarine",
+      "hex": "#263e88",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lilith Yellow",
+      "hex": "#fdea83",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lime Green",
+      "hex": "#ace44a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Magenta",
+      "hex": "#c60a85",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Marduk Yellow",
+      "hex": "#ffef00",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Mars Orange",
+      "hex": "#af6631",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Mayhem Red",
+      "hex": "#9f0d20",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Mediterranean Blue",
+      "hex": "#4d73b2",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Merm Green",
+      "hex": "#455236",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Misfits Green",
+      "hex": "#004b31",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Miskatonic Grey",
+      "hex": "#bbb7b4",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Mojave White",
+      "hex": "#d2ceb5",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Moonray Flesh",
+      "hex": "#f0d7a1",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Moonstone Alchemy",
+      "hex": "#bc937f",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Moss Green",
+      "hex": "#43492f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Nacar",
+      "hex": "#9b9f90",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Naples Yellow",
+      "hex": "#daac22",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Navy Blue",
+      "hex": "#253b6d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Necro Gold",
+      "hex": "#574e31",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Necro Grey",
+      "hex": "#303038",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ocean Blue",
+      "hex": "#0c2140",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ocean Gray",
+      "hex": "#556477",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Off White",
+      "hex": "#dfd3b9",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Old Copper",
+      "hex": "#97604c",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Olive Brown",
+      "hex": "#434631",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Olive Green",
+      "hex": "#585135",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Olivegrun 44",
+      "hex": "#93a45d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Olivegrun Green",
+      "hex": "#5a6432",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Orange",
+      "hex": "#e9670f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Orange (Artist)",
+      "hex": "#d45b14",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Orange Leather",
+      "hex": "#a06337",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Orcish Dermis",
+      "hex": "#db7d73",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Oxford Blue",
+      "hex": "#434ea8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pale Earth",
+      "hex": "#5f4125",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pale Skin",
+      "hex": "#f1d9cf",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pale Skin (Artist)",
+      "hex": "#f3d6cf",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Panzer Grey",
+      "hex": "#30383b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Panzer Yellow",
+      "hex": "#d6c78c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pastel Blue",
+      "hex": "#44646f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pastel Green",
+      "hex": "#929d97",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pastel Pink",
+      "hex": "#d97aba",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pastel Violet",
+      "hex": "#804a95",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Peanut Butter",
+      "hex": "#bb8103",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pearl Grey",
+      "hex": "#867980",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Peridot Alchemy",
+      "hex": "#8a8d78",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Permanent Orange",
+      "hex": "#ff6b0d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Petroleum Gray",
+      "hex": "#554d4b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pink Flesh",
+      "hex": "#d1928d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pink Flesh (Artist)",
+      "hex": "#bd7066",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Primary Blue",
+      "hex": "#1a76b5",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Primary Red",
+      "hex": "#d53036",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Primary Yellow",
+      "hex": "#f4e915",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Prusian Blue",
+      "hex": "#06293d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Pure Copper",
+      "hex": "#cc744c",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Purity White",
+      "hex": "#ffffff",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Purple",
+      "hex": "#912360",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rainy Gray",
+      "hex": "#8b8683",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Raw Sienna",
+      "hex": "#654226",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Raw Umber",
+      "hex": "#765f33",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Red Label",
+      "hex": "#df0617",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Red Leather",
+      "hex": "#5f3634",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Red Ochre",
+      "hex": "#80362d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Resurrection Flesh",
+      "hex": "#bb8b65",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Riff Green",
+      "hex": "#1a2d29",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rlyeh Grey",
+      "hex": "#464b4e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rotbraun 44",
+      "hex": "#905024",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rotbraun Primer Red",
+      "hex": "#925447",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rotbraun Red",
+      "hex": "#52341a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ruby Alchemy",
+      "hex": "#d37887",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Russian Green",
+      "hex": "#584f26",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Russian Light Green",
+      "hex": "#635111",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Russian Uniform",
+      "hex": "#695928",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sahara Sand",
+      "hex": "#efd066",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sahara Yellow",
+      "hex": "#aa852d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sand Yellow",
+      "hex": "#eac581",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sandalwood",
+      "hex": "#b89086",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sap Green",
+      "hex": "#033417",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Shadow Blue",
+      "hex": "#2a3245",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sharpnel Red",
+      "hex": "#6e290a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sherwood Green",
+      "hex": "#7d853a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sky Blue",
+      "hex": "#2496c8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sky Blue (Artist)",
+      "hex": "#c0e4ed",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Slate Gray",
+      "hex": "#372b15",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Slimer Green",
+      "hex": "#5a9032",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Smoke Gray",
+      "hex": "#886859",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sol Yellow",
+      "hex": "#eccb00",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Speed Metal",
+      "hex": "#d4d4d6",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Spring Green",
+      "hex": "#7fb953",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Spring Green (Artist)",
+      "hex": "#5d9f35",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Dark Brown",
+      "hex": "#220b05",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Dark Green",
+      "hex": "#2a331e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "SS Camo Golden Brown",
+      "hex": "#f0a001",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Gray Brown",
+      "hex": "#6f4f36",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Grey",
+      "hex": "#8f8063",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Highlights",
+      "hex": "#fab861",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Italian Green",
+      "hex": "#3f5232",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Light Green",
+      "hex": "#7e8126",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Medium Brown",
+      "hex": "#825d31",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Medium Green",
+      "hex": "#4d5025",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Ocher Brown",
+      "hex": "#cfae5f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Red Brown",
+      "hex": "#593a1b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Top Lights",
+      "hex": "#fbc77e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Top Shadows",
+      "hex": "#343428",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ss Camo Yellow Sand",
+      "hex": "#c0a56e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sunset Purple",
+      "hex": "#622e54",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Surfer Orc Flesh",
+      "hex": "#00a58b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Tenere Yellow",
+      "hex": "#e5c76f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Tesla Blue",
+      "hex": "#414d97",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Thar Brown",
+      "hex": "#b09f81",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Thrash Metal",
+      "hex": "#544943",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Tiamat Orange",
+      "hex": "#e97329",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Tindalos Red",
+      "hex": "#5b2922",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Titanium Gray",
+      "hex": "#41342b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Titanium Grey",
+      "hex": "#404445",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Tourmaline Alchemy",
+      "hex": "#e7a8b3",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Toxic Waste Green",
+      "hex": "#c7d538",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Turquoise",
+      "hex": "#03435f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Turquoise Blue",
+      "hex": "#15998e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Undead Flesh",
+      "hex": "#a8b170",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Us Dark Brown",
+      "hex": "#ae8a72",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Us Green",
+      "hex": "#474632",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Us Medium Brown",
+      "hex": "#d4ad84",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Vanilla White",
+      "hex": "#ede8d4",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Vanilla Yellow",
+      "hex": "#d8cc68",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Victorian Brass",
+      "hex": "#b6843b",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Viking Gold",
+      "hex": "#8d591f",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Violet",
+      "hex": "#2a1c51",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Violet Blue",
+      "hex": "#604673",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Violet Grey",
+      "hex": "#72727c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Walnut",
+      "hex": "#7d6450",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "White",
+      "hex": "#ffffff",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "White",
+      "hex": "#ffffff",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "White Metal",
+      "hex": "#f1f1f1",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "White Sands",
+      "hex": "#f6e1c6",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Winter Grey",
+      "hex": "#6e6e70",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Winter Shadow",
+      "hex": "#3a3c39",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Wood",
+      "hex": "#60483e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Yellow Code",
+      "hex": "#ffcb06",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Yellow Ocre",
+      "hex": "#a0702e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Yellow Oxide",
+      "hex": "#4b3527",
+      "type": "layer",
+      "metallic": false
+    }
+  ]
+}

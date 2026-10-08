@@ -1,0 +1,127 @@
+/* The looks. Colors live in "tokens" (named variables) so light/dark mode is easy. */
+
+:root {
+  --bg: #f2f1ee;
+  --panel: #ffffff;
+  --text: #1d2125;
+  --muted: #5f6870;
+  --line: #d9d7d2;
+  --accent: #1f5f8b;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16191c; --panel: #20252a; --text: #eceae6;
+    --muted: #9aa3ab; --line: #343b42; --accent: #6bb0dd;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #16191c; --panel: #20252a; --text: #eceae6;
+  --muted: #9aa3ab; --line: #343b42; --accent: #6bb0dd;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.5;
+}
+main { max-width: 560px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 1.7rem; margin: 0 0 4px; }
+.intro { color: var(--muted); margin: 0 0 20px; }
+
+label { display: block; font-weight: bold; margin-bottom: 6px; }
+select {
+  width: 100%;
+  padding: 12px;
+  font: inherit;
+  color: var(--text);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+select:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* The big swatch: the one memorable thing on the page */
+.chosen {
+  margin: 20px 0 8px;
+  height: 120px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: flex-end;
+  padding: 10px 12px;
+}
+.chosen span {
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+h2 { font-size: 1.15rem; margin: 24px 0 10px; }
+
+.match {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  margin-bottom: 8px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.swatch {
+  flex: none;
+  width: 52px;
+  height: 52px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+.match b { display: block; }
+.match small { color: var(--muted); }
+
+.note { color: var(--muted); font-size: 0.85rem; margin-top: 28px; }
+
+/* Method switch */
+.method { margin: 14px 0 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; }
+.method legend { padding: 0 6px; font-weight: bold; }
+.method label { display: flex; align-items: center; gap: 8px; font-weight: normal; padding: 6px 0; margin: 0; }
+.method input { width: 20px; height: 20px; }
+.method small { color: var(--muted); }
+
+/* Usage guide */
+.guide { margin-top: 28px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 4px 14px 12px; }
+.guide summary { cursor: pointer; font-weight: bold; padding: 10px 0; }
+.guide summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.guide h3 { font-size: 1rem; margin: 16px 0 4px; }
+.guide p, .guide li { margin: 4px 0; }
+.guide ul, .guide ol { padding-left: 20px; margin: 4px 0; }
+.brand-head { font-size: 0.95rem; margin: 14px 0 6px; }
+
+/* Collapsible brand headings */
+.brand-toggle {
+  display: flex; align-items: center; gap: 8px; width: 100%; min-height: 44px;
+  padding: 6px 0; font: inherit; font-weight: bold; text-align: left;
+  color: var(--text); background: none; border: 0; border-bottom: 1px solid var(--line); cursor: pointer;
+}
+.brand-toggle .chev { width: 1em; color: var(--muted); }
+.brand-toggle .count { color: var(--muted); font-weight: normal; }
+.brand-body { padding-top: 8px; }
+
+/* "Report a problem" links */
+.match > div:last-child { flex: 1; min-width: 0; }
+.report-link {
+  display: flex; align-items: center; width: fit-content; min-height: 44px;
+  font-size: 0.85rem; color: var(--accent);
+}
+.report-link:focus-visible, .note a:focus-visible, .guide a:focus-visible, .brand-toggle:focus-visible {
+  outline: 3px solid var(--accent); outline-offset: 2px;
+}
+.note a, .guide a { color: var(--accent); }
+

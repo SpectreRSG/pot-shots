@@ -1,0 +1,984 @@
+{
+  "brand": "Citadel",
+  "sample": false,
+  "source": {
+    "title": "Minipainter catalog",
+    "repo": "ArturSkowronski/minipainter",
+    "commit": "fe3fd9b34f93ffcc5cad147b397f9493e90db9d6",
+    "license": "MIT"
+  },
+  "paints": [
+    {
+      "name": "Abaddon Black",
+      "hex": "#141414",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Administratum Grey",
+      "hex": "#a8a8a6",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ahriman Blue",
+      "hex": "#2a7cb8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Air Caste Thinner",
+      "hex": "#dadada",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Alaitoc Blue",
+      "hex": "#295788",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Altdorf Guard Blue",
+      "hex": "#2a4e9e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Angron Red Clear",
+      "hex": "#e21823",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Auric Armour Gold",
+      "hex": "#e8bc6d",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Averland Sunset",
+      "hex": "#d9a022",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Baharroth Blue",
+      "hex": "#7ec8d8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Balor Brown",
+      "hex": "#8b5910",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Balthasar Gold",
+      "hex": "#a57c3a",
+      "type": "base",
+      "metallic": true
+    },
+    {
+      "name": "Baneblade Brown",
+      "hex": "#937f6d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Barak-Nar Burgundy",
+      "hex": "#5a1e28",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Bestigor Flesh",
+      "hex": "#d38a57",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blood Angels Red",
+      "hex": "#b8242c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bloodreaver Flesh",
+      "hex": "#6a4848",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blue Horror",
+      "hex": "#a2bad2",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Brass Scorpion",
+      "hex": "#8a6a2a",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Bugman's Glow",
+      "hex": "#8b5a3c",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Cadian Fleshtone",
+      "hex": "#c48a6c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Caledor Sky",
+      "hex": "#1c4e8e",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Calgar Blue",
+      "hex": "#3a5aa8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Caliban Green",
+      "hex": "#00401f",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Calth Blue Clear",
+      "hex": "#0087d1",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Castellan Green",
+      "hex": "#4a5a2c",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Castellax Bronze",
+      "hex": "#b08a58",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Catachan Flesh",
+      "hex": "#6b4a32",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Celestra Grey",
+      "hex": "#9ba4a8",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Corax White",
+      "hex": "#d8d8d6",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Corvus Black",
+      "hex": "#171314",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Daemonette Hide",
+      "hex": "#5c4a66",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Dark Reaper",
+      "hex": "#3b5150",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dawnstone",
+      "hex": "#7a7c7e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Death Guard Green",
+      "hex": "#848a66",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Death Korps Drab",
+      "hex": "#5c5140",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Deathclaw Brown",
+      "hex": "#b87848",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Deathworld Forest",
+      "hex": "#6a6a3a",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Dechala Lilac",
+      "hex": "#c9a6d4",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Deepkin Flesh",
+      "hex": "#a9b79f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Doombull Brown",
+      "hex": "#5d0009",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dorn Yellow",
+      "hex": "#f0c848",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dryad Bark",
+      "hex": "#3e2a1e",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Eidolon Purple Clear",
+      "hex": "#7d4d99",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Elysian Green",
+      "hex": "#7aa858",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Emperor's Children",
+      "hex": "#b44a8a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Eshin Grey",
+      "hex": "#4a4c4e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Evil Sunz Scarlet",
+      "hex": "#c82828",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Fenrisian Grey",
+      "hex": "#8aa8b8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Fire Dragon Bright",
+      "hex": "#f58652",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Flash Gitz Yellow",
+      "hex": "#f5d838",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Flayed One Flesh",
+      "hex": "#d8c89a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Fulgrim Pink",
+      "hex": "#f4afcd",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Fulgurite Copper",
+      "hex": "#fcfcde",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Gal Vorbak Red",
+      "hex": "#4b213c",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Gauss Blaster Green",
+      "hex": "#8ec858",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Gehenna's Gold",
+      "hex": "#c89a3a",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Genestealer Purple",
+      "hex": "#7a4a8a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Gorthor Brown",
+      "hex": "#654741",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Grey Knights Steel",
+      "hex": "#465863",
+      "type": "base",
+      "metallic": true
+    },
+    {
+      "name": "Grey Seer",
+      "hex": "#b8b8b4",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Hashut Copper",
+      "hex": "#b47838",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Hobgrot Hide",
+      "hex": "#a1812a",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Hoeth Blue",
+      "hex": "#4a8cc8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Incubi Darkness",
+      "hex": "#1e3a3c",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Ionrach Skin",
+      "hex": "#97a384",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Iron Hands Steel",
+      "hex": "#44423f",
+      "type": "base",
+      "metallic": true
+    },
+    {
+      "name": "Iron Warriors",
+      "hex": "#292725",
+      "type": "base",
+      "metallic": true
+    },
+    {
+      "name": "Ironbreaker",
+      "hex": "#8a8c8e",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Jokaero Orange",
+      "hex": "#d45a1a",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Kabalite Green",
+      "hex": "#186a5a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kakophoni Purple",
+      "hex": "#8869ae",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kantor Blue",
+      "hex": "#1a2e58",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Karak Stone",
+      "hex": "#bb9662",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Karandras Green",
+      "hex": "#4a7a4a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Khorne Red",
+      "hex": "#7a1a1a",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Kislev Flesh",
+      "hex": "#e4b48a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Knight-Questor Flesh",
+      "hex": "#996563",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Krieg Khaki",
+      "hex": "#b8a878",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Leadbelcher",
+      "hex": "#5c5e60",
+      "type": "base",
+      "metallic": true
+    },
+    {
+      "name": "Liberator Gold",
+      "hex": "#d3b587",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Loren Forest",
+      "hex": "#50702d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lothern Blue",
+      "hex": "#5abce8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lucius Lilac",
+      "hex": "#b89aca",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lugganath Orange",
+      "hex": "#f79e86",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lupercal Green",
+      "hex": "#002c2b",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Macragge Blue",
+      "hex": "#1f3a78",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Mechanicus Standard Grey",
+      "hex": "#3b4044",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Mephiston Red",
+      "hex": "#9a1c1c",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Moot Green",
+      "hex": "#5aca28",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Morghast Bone",
+      "hex": "#b8a474",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Mortarion Green Clear",
+      "hex": "#00832b",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Mournfang Brown",
+      "hex": "#640909",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Naggaroth Night",
+      "hex": "#3b2a4a",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Night Lords Blue",
+      "hex": "#002b5c",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Nocturne Green",
+      "hex": "#162a29",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Nurgling Green",
+      "hex": "#baca78",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ogryn Camo",
+      "hex": "#8a8a5a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Orruk Flesh",
+      "hex": "#8cc276",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Pallid Wych Flesh",
+      "hex": "#d8d4b8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Phalanx Yellow",
+      "hex": "#ffe200",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Phoenician Purple",
+      "hex": "#6a2a5a",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Pink Horror",
+      "hex": "#d85878",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Rakarth Flesh",
+      "hex": "#b8a890",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Ratskin Flesh",
+      "hex": "#ad6b4c",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Retributor Armour",
+      "hex": "#b08838",
+      "type": "base",
+      "metallic": true
+    },
+    {
+      "name": "Rhinox Hide",
+      "hex": "#3a2418",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Runefang Steel",
+      "hex": "#c8cacc",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Runelord Brass",
+      "hex": "#b6a89a",
+      "type": "base",
+      "metallic": true
+    },
+    {
+      "name": "Russ Grey",
+      "hex": "#4a6a8a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Screamer Pink",
+      "hex": "#6a1a3c",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Screaming Bell",
+      "hex": "#c16f45",
+      "type": "base",
+      "metallic": true
+    },
+    {
+      "name": "Screaming Skull",
+      "hex": "#d4c89a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sigmarite",
+      "hex": "#bec0c2",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Skarsnik Green",
+      "hex": "#8aca6a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Skavenblight Dinge",
+      "hex": "#5a4a3a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Skink Blue",
+      "hex": "#4abaca",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Skrag Brown",
+      "hex": "#90490f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Skullcrusher Brass",
+      "hex": "#f1c78e",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Sons of Horus Green",
+      "hex": "#00545e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sotek Green",
+      "hex": "#186a8a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Squig Orange",
+      "hex": "#e85818",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Steel Legion Drab",
+      "hex": "#8a7249",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Stegadon Scale Green",
+      "hex": "#1e4a52",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Stormhost Silver",
+      "hex": "#d8dadc",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Stormvermin Fur",
+      "hex": "#736b65",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Straken Green",
+      "hex": "#6a8a4a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sybarite Green",
+      "hex": "#5aca8a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Sycorax Bronze",
+      "hex": "#cbb394",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Tallarn Sand",
+      "hex": "#a88a5a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Tau Light Ochre",
+      "hex": "#bf6e1d",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Teclis Blue",
+      "hex": "#2a8ac8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Temple Guard Blue",
+      "hex": "#4abab8",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Thallax Gold",
+      "hex": "#722a0b",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "The Fang",
+      "hex": "#4a5a6a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Thondia Brown",
+      "hex": "#54302a",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Thousand Sons Blue",
+      "hex": "#1e5c78",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Thunderhawk Blue",
+      "hex": "#3a4a5a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Troll Slayer Orange",
+      "hex": "#f06818",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Tuskgor Fur",
+      "hex": "#8a4a2a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Typhon Ash",
+      "hex": "#e4d8c1",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ulthuan Grey",
+      "hex": "#c8cac4",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ungor Flesh",
+      "hex": "#c89a7a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ushabti Bone",
+      "hex": "#bbbb7f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Valdor Gold",
+      "hex": "#6d2711",
+      "type": "layer",
+      "metallic": true
+    },
+    {
+      "name": "Volupus Pink",
+      "hex": "#a84a7a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Vulkan Green",
+      "hex": "#223c2e",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Waaagh! Flesh",
+      "hex": "#1a4a2a",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Warboss Green",
+      "hex": "#3a8a3a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Warpfiend Grey",
+      "hex": "#6b6a74",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Warplock Bronze",
+      "hex": "#927d7b",
+      "type": "base",
+      "metallic": true
+    },
+    {
+      "name": "Warpstone Glow",
+      "hex": "#3a8a4a",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Wazdakka Red",
+      "hex": "#8c0a0c",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "White Scar",
+      "hex": "#f8f8f6",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Wild Rider Red",
+      "hex": "#e02828",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Word Bearers Red",
+      "hex": "#620104",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Wraithbone",
+      "hex": "#d4c8a8",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Xereus Purple",
+      "hex": "#471f5f",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "XV-88",
+      "hex": "#6a4a1e",
+      "type": "base",
+      "metallic": false
+    },
+    {
+      "name": "Yriel Yellow",
+      "hex": "#f0a818",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Zamesi Desert",
+      "hex": "#dda026",
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Zandri Dust",
+      "hex": "#a89868",
+      "type": "base",
+      "metallic": false
+    }
+  ]
+}

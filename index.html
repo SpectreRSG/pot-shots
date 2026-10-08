@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Pick a Citadel paint and see the closest colors from other miniature paint brands.">
+<title>Pot Shots</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<main>
+  <!-- The page structure. src/main.js fills in the dropdown and the results. -->
+  <h1>Pot Shots</h1>
+  <p class="intro">Pick a Citadel paint. See the closest colors from other brands.</p>
+
+  <label for="paint-picker">Citadel paint (base and layer)</label>
+  <select id="paint-picker"></select>
+
+  <fieldset class="method">
+    <legend>Matching method</legend>
+    <label><input type="radio" name="method" value="lab" checked> CIELAB <small>(recommended)</small></label>
+    <label><input type="radio" name="method" value="rgb"> RGB <small>(simple)</small></label>
+  </fieldset>
+
+  <div class="chosen" id="chosen"><span id="chosen-hex"></span></div>
+  <div id="chosen-report"></div>
+
+  <h2>Closest matches</h2>
+  <div id="results"></div>
+
+  <details class="guide">
+    <summary>How to use this (new to painting? start here)</summary>
+
+    <h3>What this does</h3>
+    <p>Say you own a Citadel paint but want a similar color from another brand, maybe because it is cheaper or you already own it. Pick the Citadel paint and this page lists paints from other brands that look about the same.</p>
+
+    <h3>How to use it</h3>
+    <ol>
+      <li>Pick your Citadel paint from the dropdown.</li>
+      <li>Look at the big color block. That is the color you want.</li>
+      <li>Compare it with the small swatches below. Closer to the big block means a better match.</li>
+      <li>Note the brand and paint name, then look for that paint in a shop.</li>
+    </ol>
+
+    <h3>What the labels mean</h3>
+    <ul>
+      <li><b>Very close:</b> most people will not see a difference once it is painted.</li>
+      <li><b>Close:</b> clearly the same color, but a little lighter, darker, or warmer.</li>
+      <li><b>Rough match:</b> same color family, but you will notice a difference.</li>
+      <li>Paints that are too different are hidden on purpose.</li>
+    </ul>
+    <p>If you see "No close matches," this page just does not have a good one in its list yet. It does not mean no paint exists.</p>
+
+    <h3>CIELAB or RGB?</h3>
+    <p><b>RGB</b> compares colors the way a screen makes them, as a mix of red, green, and blue light. It is simple, but it can pick matches that look a bit odd to your eyes.</p>
+    <p><b>CIELAB</b> measures color closer to how people actually see it, so its matches usually look better. Leave it on CIELAB, and switch to RGB if you are curious how the results change.</p>
+
+    <h3>Paint words worth knowing</h3>
+    <ul>
+      <li><b>Base / layer paints:</b> the normal, opaque paints. This page is meant for these.</li>
+      <li><b>Metallic paints:</b> contain tiny metal flakes and sparkle. Match metallics only with metallics. This page does that for you: a metallic Citadel paint is only compared with other metallics.</li>
+      <li><b>Washes, shades, and contrast paints:</b> thin, runny paints that settle into crevices. Their final color depends on the color underneath, so a screen swatch is not reliable. Do not use this page for them.</li>
+    </ul>
+
+    <h3>Tips before you buy</h3>
+    <ul>
+      <li>Test the new paint on a spare model or a piece of plastic first.</li>
+      <li>Paint dries a little darker or lighter than it looks wet.</li>
+      <li>Apply two thin coats rather than one thick one, so details stay sharp.</li>
+      <li>Screen colors vary by device and lighting. Treat this as a good starting guess, not a guarantee.</li>
+    </ul>
+
+    <h3>Hiding brands you don't use</h3>
+    <p>Tap a brand's name to collapse or expand its matches. The page remembers your choice on this device, even when you pick a different paint or come back later.</p>
+
+    <h3>Spotted a wrong color?</h3>
+    <p>Press "Report a problem" under any paint. It opens a short form on GitHub with the paint details already filled in. Add what looks wrong and send it. You need a free GitHub account, and reports are public, so don't include personal details.</p>
+  </details>
+
+  <p class="note">
+    Citadel, Army Painter, Vallejo, and AK Interactive colors come from the open-source
+    <a href="https://github.com/ArturSkowronski/minipainter">Minipainter catalog</a>, and Pro Acryl, Scale75, and Reaper
+    colors from the open-source <a href="https://github.com/Arcturus5404/miniature-paints">miniature-paints dataset</a>
+    (both MIT license). Two Thin Coats entries are placeholders, marked "sample data". All colors are approximate
+    screen colors, so real paint looks different in person. Check a match before you buy.
+  </p>
+  <p class="note">
+    Pot Shots is an independent fan project. It is not affiliated with or endorsed by Games Workshop or any
+    paint brand. Citadel and all paint names are trademarks of their owners.
+  </p>
+</main>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

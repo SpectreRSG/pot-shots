@@ -1,0 +1,21 @@
+{
+  "_readme": [
+    "Where the paint data comes from. 'commit' pins an exact version of each repo,",
+    "so rebuilding gives the same result until you change it on purpose.",
+    "To update: copy the newest commit ID from GitHub, paste it here, run 'npm run build-data'."
+  ],
+  "minipainter": {
+    "title": "Minipainter catalog",
+    "repo": "ArturSkowronski/minipainter",
+    "commit": "fe3fd9b34f93ffcc5cad147b397f9493e90db9d6",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2026 Artur Skowronski"
+  },
+  "miniature-paints": {
+    "title": "miniature-paints",
+    "repo": "Arcturus5404/miniature-paints",
+    "commit": "22791a682e1d155da388f4f856cd7196cd9f2677",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2022 Rick Fleuren"
+  }
+}

@@ -1,0 +1,19 @@
+# Tells Netlify how to build and publish the site.
+[build]
+  # Run the tests first: if any fail, the site is not updated.
+  command = "npm test && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Security headers sent with every page.
+# The Content-Security-Policy only allows this site's own files to run, so even if
+# something odd got into the paint data, it could not load outside code.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"

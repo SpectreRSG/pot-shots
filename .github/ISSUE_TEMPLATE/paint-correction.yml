@@ -1,0 +1,43 @@
+# The form people see after pressing "Report a problem" in the app.
+# The app fills in "paint" and "context" automatically (matched by their ids).
+name: Paint color problem
+description: A paint's color looks wrong, or a match doesn't look right.
+title: "Color problem: "
+labels: ["data-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping. Colors in Pot Shots are approximate screen colors, so small
+        differences are expected. Reports are public, so please don't include personal details.
+  - type: input
+    id: paint
+    attributes:
+      label: Paint
+      description: Filled in for you when you came from the app.
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Where you saw it
+      description: Filled in for you when you came from the app.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong?
+      options:
+        - The color looks wrong
+        - It's metallic but shown as regular (or the other way round)
+        - The match doesn't look similar in real life
+        - The name or brand is wrong
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What did you expect? If you know a better hex code or a source (a brand's site, a photo of a swatch), add it here.
+    validations:
+      required: true
