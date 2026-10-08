@@ -1,7 +1,8 @@
 # Pot Shots
 
 Pick a Citadel base or layer paint and see the closest colors from other miniature paint brands:
-Army Painter, Vallejo, AK Interactive, Pro Acryl, Scale75, Reaper, and Two Thin Coats (sample data for now).
+Army Painter, Vallejo, AK Interactive, Pro Acryl, Scale75 and Reaper. When the Citadel paint is on the official
+Two Thin Coats conversion chart, the app also shows the Two Thin Coats paint it lines up with.
 
 > **Colors are approximate.** Every hex code is a screen color, not a measurement of real paint.
 > Paint looks different in person, on different screens, and wet vs. dry. Treat matches as a good
@@ -30,7 +31,7 @@ npm run build        # make the publishable site in dist/
 | `src/color/` | Color math: hex to RGB to CIELAB, and the two distance measures. |
 | `src/matching/` | The matching rules and the cutoffs for each method. |
 | `src/ui/` | Drawing the dropdown, the results, and the "Report a problem" links. |
-| `src/data/` | One JSON file per brand, plus `brands.js`, the list the app loads. |
+| `src/data/` | One JSON file per brand, `brands.js` (the list the app loads), and `two-thin-coats-chart.json`. |
 | `scripts/` | `build-data.mjs` rebuilds `src/data/` from the source repos, using the rules in `scripts/rules/`. |
 | `tests/` | Tests for the color math, the matching rules, and the data. |
 
@@ -93,13 +94,17 @@ The site is hosted on Netlify, which watches this repository. Every push to `mai
 |---|---|---|
 | Citadel, Army Painter, Vallejo, AK Interactive | [Minipainter catalog](https://github.com/ArturSkowronski/minipainter) by Artur Skowronski | MIT |
 | Pro Acryl (Monument), Scale75, Reaper | [miniature-paints](https://github.com/Arcturus5404/miniature-paints) by Rick Fleuren | MIT |
-| Two Thin Coats | Hand-made **placeholders**, marked "sample data" in the app | n/a |
+| Two Thin Coats (conversions only) | [Two Thin Coats Paint Conversion Chart, Wave 1](https://www.duncanrhodes.com/wp-content/uploads/2023/08/Conversion-Chart-Wave-1_2023_01.pdf), © Trans Atlantis Games / Duncan Rhodes Painting Academy 2022 | Not openly licensed; see below |
 
 Full license texts are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-**Two Thin Coats:** the real paint data has no open license. Permission has been requested from the
-Duncan Rhodes Painting Academy. Until permission or a verified, openly licensed source arrives, the
-8 entries in `src/data/two-thin-coats.json` stay as clearly marked placeholders.
+**Two Thin Coats:** the chart is copyrighted and has no open license. Its 54 base/layer pairings
+were typed by hand into `src/data/two-thin-coats-chart.json`, with names exactly as printed and a
+short `citadelNameFixes` list where the chart spells a Citadel paint differently (for example
+"Evil Sun Red" for Evil Sunz Scarlet). The chart's 6 washes are left out. The site credits and links
+the chart. Permission has been requested from the Duncan Rhodes Painting Academy; if they ask for it
+to be removed, set `"enabled": false` in that file and push. No Two Thin Coats colors are shown,
+because there is no openly licensed color data for them.
 
 The code license for Pot Shots itself hasn't been chosen yet.
 

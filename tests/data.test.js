@@ -77,8 +77,8 @@ describe("data files", () => {
     }
   });
 
-  it("marks only Two Thin Coats as sample data", () => {
-    expect(BRANDS.filter(b => b.sample).map(b => b.brand)).toEqual(["Two Thin Coats"]);
+  it("has no placeholder (sample) brands", () => {
+    expect(BRANDS.filter(b => b.sample)).toEqual([]);
   });
 
   it("flags the hand-checked Citadel metallics", () => {

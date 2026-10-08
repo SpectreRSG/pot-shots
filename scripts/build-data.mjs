@@ -7,7 +7,7 @@
 // 3. Marks metallics using the catalog plus rules/metallics.json.
 // 4. Writes one JSON file per brand and prints a short report to check.
 //
-// Two Thin Coats is NOT touched: src/data/two-thin-coats.json is written by hand.
+// Two Thin Coats is NOT touched: src/data/two-thin-coats-chart.json is typed by hand.
 
 import { readFile, writeFile } from "node:fs/promises";
 import { filterCatalog, filterTable, parseMarkdownTable, findDuplicateNames, sortByName } from "./lib/rules.mjs";
@@ -66,4 +66,4 @@ if (unusedMetallics.length) {
   console.log("\nThese names in metallics.json matched no paint (typo?):");
   unusedMetallics.forEach(line => console.log("  " + line));
 }
-console.log("\nTwo Thin Coats was not changed (it is hand-written sample data).\n");
+console.log("\nThe Two Thin Coats chart was not changed (it is typed by hand).\n");

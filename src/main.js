@@ -8,11 +8,15 @@ import { loadCollapsed } from "./storage.js";
 import { fillSourcePicker } from "./ui/sourcePicker.js";
 import { renderResults } from "./ui/results.js";
 import { reportLink } from "./ui/reportLink.js";
+import { findConversions } from "./matching/officialConversions.js";
+import { renderOfficial } from "./ui/official.js";
+import ttcChart from "./data/two-thin-coats-chart.json";
 
 const picker = document.getElementById("paint-picker");
 const chosenBox = document.getElementById("chosen");
 const chosenHex = document.getElementById("chosen-hex");
 const chosenReport = document.getElementById("chosen-report");
+const officialBox = document.getElementById("official");
 const resultsBox = document.getElementById("results");
 
 const sourcePaints = ALL_PAINTS.filter(p => p.brand === SOURCE_BRAND);
@@ -29,6 +33,9 @@ function showResults() {
     paint: `Citadel "${chosen.name}" (${chosen.hex})`,
     context: "The Citadel color itself."
   }, chosen.name));
+
+  // The paint maker's own swap, when the Two Thin Coats chart lists this paint.
+  renderOfficial(officialBox, { chosen, conversions: findConversions(chosen.name, ttcChart), chart: ttcChart });
 
   const groups = findMatches(chosen, ALL_PAINTS, methodKey);
   renderResults(resultsBox, { chosen, groups, methodKey, collapsed });

@@ -125,3 +125,15 @@ h2 { font-size: 1.15rem; margin: 24px 0 10px; }
 }
 .note a, .guide a { color: var(--accent); }
 
+
+/* Two Thin Coats conversion box */
+.official-card {
+  padding: 10px 12px; margin-bottom: 8px;
+  background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px;
+}
+.official-card b { display: block; }
+.official-card small { color: var(--muted); }
+.official-card p { margin: 4px 0 0; font-size: 0.9rem; }
+.official-credit { color: var(--muted); font-size: 0.85rem; margin: 4px 0 0; }
+.official-credit a { color: var(--accent); }
+.official-credit a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
