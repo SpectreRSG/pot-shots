@@ -86,3 +86,18 @@ describe("data files", () => {
     expect(leadbelcher.metallic).toBe(true);
   });
 });
+
+describe("Warhammer Tone Pro (waiting for colour data)", () => {
+  const tonePro = BRANDS.find(b => b.brand === "Warhammer Tone Pro");
+
+  it("lists 30 colours in 5 tones each", () => {
+    expect(tonePro.paints).toHaveLength(150);
+    expect(new Set(tonePro.paints.map(p => p.name.replace(/ [1-5]$/, ""))).size).toBe(30);
+  });
+
+  it("stays hidden until its colours are filled in", () => {
+    const shown = ALL_PAINTS.filter(p => p.brand === "Warhammer Tone Pro");
+    const withColour = tonePro.paints.filter(p => p.hex);
+    expect(shown).toHaveLength(withColour.length);
+  });
+});

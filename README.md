@@ -109,6 +109,11 @@ its color is not close, because the paint maker chose it. Permission has been re
 Duncan Rhodes Painting Academy; if they ask for it to be removed, set `"enabled": false` in that
 file and push.
 
+**Warhammer Tone Pro** (30 colours × 5 tones, released 24 October 2026) is waiting for colour data.
+Its 150 names are listed in `src/data/warhammer-tone-pro.json` with `"hex": null`, and the app skips
+paints without a colour, so it stays hidden for now. When the Minipainter catalog adds Tone Pro, add
+it to `scripts/rules/brands.json`, run `npm run build-data`, and delete the hand-made file.
+
 The code license for Pot Shots itself hasn't been chosen yet.
 
 ## Ideas for later

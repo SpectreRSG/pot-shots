@@ -1,0 +1,918 @@
+{
+  "_readme": [
+    "Warhammer Tone Pro: 30 colours, each in 5 tones numbered 1 (darkest) to 5 (lightest). Released 24 October 2026.",
+    "WAITING FOR COLOUR DATA. No openly licensed source has these colours yet, so every 'hex' is null",
+    "and the app skips paints without a hex: Tone Pro stays hidden until colours are filled in.",
+    "Names come from press coverage of the launch; check them against the real paints when the data arrives.",
+    "Best path: when the Minipainter catalog adds Tone Pro, add it to scripts/rules/brands.json,",
+    "rebuild with 'npm run build-data', and delete this file."
+  ],
+  "brand": "Warhammer Tone Pro",
+  "sample": false,
+  "source": {
+    "title": "Waiting for an openly licensed source",
+    "license": "n/a"
+  },
+  "paints": [
+    {
+      "name": "Carmine Blades 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Carmine Blades 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Carmine Blades 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Carmine Blades 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Carmine Blades 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bloodtoof Red 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bloodtoof Red 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bloodtoof Red 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bloodtoof Red 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Bloodtoof Red 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Chotec Orange 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Chotec Orange 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Chotec Orange 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Chotec Orange 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Chotec Orange 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ta'unar Ochre 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ta'unar Ochre 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ta'unar Ochre 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ta'unar Ochre 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ta'unar Ochre 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Khemri Sands 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Khemri Sands 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Khemri Sands 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Khemri Sands 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Khemri Sands 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hawkshroud Yellow 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hawkshroud Yellow 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hawkshroud Yellow 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hawkshroud Yellow 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hawkshroud Yellow 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Megaboss Yellow 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Megaboss Yellow 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Megaboss Yellow 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Megaboss Yellow 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Megaboss Yellow 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Plague Toad Venom 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Plague Toad Venom 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Plague Toad Venom 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Plague Toad Venom 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Plague Toad Venom 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kruleboyz Green 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kruleboyz Green 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kruleboyz Green 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kruleboyz Green 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kruleboyz Green 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lustria Green 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lustria Green 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lustria Green 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lustria Green 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Lustria Green 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kasrkin Green 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kasrkin Green 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kasrkin Green 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kasrkin Green 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Kasrkin Green 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hierotek Green 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hierotek Green 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hierotek Green 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hierotek Green 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hierotek Green 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Green Morkshroom 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Green Morkshroom 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Green Morkshroom 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Green Morkshroom 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Green Morkshroom 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Seraphon Blue 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Seraphon Blue 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Seraphon Blue 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Seraphon Blue 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Seraphon Blue 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Craventhrone Cloak 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Craventhrone Cloak 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Craventhrone Cloak 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Craventhrone Cloak 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Craventhrone Cloak 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Stormwolf Blue 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Stormwolf Blue 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Stormwolf Blue 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Stormwolf Blue 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Stormwolf Blue 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Scinari Blue 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Scinari Blue 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Scinari Blue 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Scinari Blue 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Scinari Blue 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blue Gorkshroom 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blue Gorkshroom 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blue Gorkshroom 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blue Gorkshroom 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blue Gorkshroom 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ultramar Blue 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ultramar Blue 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ultramar Blue 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ultramar Blue 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Ultramar Blue 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Shalaxi Violet 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Shalaxi Violet 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Shalaxi Violet 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Shalaxi Violet 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Shalaxi Violet 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Enrapturess Dusk 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Enrapturess Dusk 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Enrapturess Dusk 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Enrapturess Dusk 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Enrapturess Dusk 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hive Fleet Purple 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hive Fleet Purple 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hive Fleet Purple 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hive Fleet Purple 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Hive Fleet Purple 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Magnus the Red 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Magnus the Red 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Magnus the Red 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Magnus the Red 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Magnus the Red 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Eye of Terror 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Eye of Terror 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Eye of Terror 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Eye of Terror 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Eye of Terror 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Carthalos Skin 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Carthalos Skin 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Carthalos Skin 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Carthalos Skin 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Carthalos Skin 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Celestine Skin 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Celestine Skin 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Celestine Skin 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Celestine Skin 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Celestine Skin 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Gnarlwood 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Gnarlwood 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Gnarlwood 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Gnarlwood 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Gnarlwood 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Necrolith Bone 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Necrolith Bone 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Necrolith Bone 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Necrolith Bone 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Necrolith Bone 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dataslate Grey 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dataslate Grey 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dataslate Grey 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dataslate Grey 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Dataslate Grey 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blackstone Void 1",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blackstone Void 2",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blackstone Void 3",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blackstone Void 4",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    },
+    {
+      "name": "Blackstone Void 5",
+      "hex": null,
+      "type": "layer",
+      "metallic": false
+    }
+  ]
+}
