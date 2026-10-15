@@ -12,3 +12,8 @@ export const METHODS = {
 };
 
 export const DEFAULT_METHOD = "lab";
+
+// A match whose hue is clearly different (say, green next to brown) is hidden,
+// whichever method is used. Above 10 the difference is plain to see; the value
+// was chosen by looking at hundreds of real pairs from the paint data.
+export const MAX_HUE_DIFFERENCE = 10;

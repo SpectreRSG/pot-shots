@@ -42,6 +42,17 @@ describe("findMatches", () => {
     expect(names(findMatches(chosen, paints, "rgb"))).not.toContain("C far");
   });
 
+  it("hides a clearly different hue even when it is close by distance, and promotes the next best", () => {
+    // Olive green, with a brown that is near in distance but a different hue.
+    const olive = { brand: "Citadel", name: "Olive", hex: "#848a66", metallic: false };
+    const list = [
+      olive,
+      { brand: "Z", name: "brown, different hue", hex: "#a28f7d", metallic: false },
+      { brand: "Z", name: "olive, same hue", hex: "#7c8462", metallic: false }
+    ];
+    expect(names(findMatches(olive, list, "rgb"))).toEqual(["olive, same hue"]);
+  });
+
   it("shows at most 2 per brand, best first", () => {
     const brandA = findMatches(chosen, paints, "lab").find(g => g.brand === "Brand A");
     expect(brandA.matches.map(m => m.name)).toEqual(["A exact", "A near"]);

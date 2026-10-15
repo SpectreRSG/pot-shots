@@ -27,3 +27,17 @@ export function rgbDistance(hexA, hexB) {
     (a.b - b.b) ** 2
   );
 }
+
+// How different two colors are in hue (red vs orange vs yellow...), on the Lab scale.
+// It is weighted by how strong (saturated) the colors are: a hue change is easy to
+// see between two bright colors, but hard to see between two greyish ones.
+// Two greys always score 0, because a grey has no real hue.
+export function hueDifference(hexA, hexB) {
+  const a = hexToLab(hexA);
+  const b = hexToLab(hexB);
+  const chromaA = Math.hypot(a.a, a.b);   // color strength: 0 = grey
+  const chromaB = Math.hypot(b.a, b.b);
+  let angle = Math.abs(Math.atan2(a.b, a.a) - Math.atan2(b.b, b.a));   // hue angle gap
+  if (angle > Math.PI) angle = 2 * Math.PI - angle;   // go the short way round the color wheel
+  return 2 * Math.sqrt(chromaA * chromaB) * Math.sin(angle / 2);
+}

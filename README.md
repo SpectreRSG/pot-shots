@@ -37,7 +37,9 @@ npm run build        # make the publishable site in dist/
 | `tests/` | Tests for the color math, the matching rules, and the data. |
 
 **Matching, in short:** for the chosen Citadel paint, measure the distance to every paint from the
-other brands. Metallics only match metallics. Anything past the hide limit is dropped. Each brand
+other brands. Metallics only match metallics. Anything past the hide limit is dropped, and so is
+anything with a clearly different hue (weighted hue difference above 10, `MAX_HUE_DIFFERENCE` in
+`src/matching/methods.js`; this also applies to the Two Thin Coats chart picks). Each brand
 shows its best 2, and brands are ordered by their best match.
 
 | Method | Very close | Close | Hidden above |

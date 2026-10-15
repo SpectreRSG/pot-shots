@@ -1,6 +1,7 @@
 // The matching rules: which paints count as a match, and in what order.
 
-import { METHODS } from "./methods.js";
+import { METHODS, MAX_HUE_DIFFERENCE } from "./methods.js";
+import { hueDifference } from "../color/distance.js";
 
 // For the chosen paint, find the best matches in EACH other brand.
 // Returns [{ brand, matches: [paint + distance, ...] }, ...], best brand first.
@@ -13,6 +14,7 @@ export function findMatches(chosenPaint, allPaints, methodKey, perBrand = 2) {
     if (p.metallic !== chosenPaint.metallic) continue;    // metallics only match metallics
     const distance = method.measure(chosenPaint.hex, p.hex);
     if (distance > method.max) continue;                  // drop obvious mismatches
+    if (hueDifference(chosenPaint.hex, p.hex) > MAX_HUE_DIFFERENCE) continue;   // drop clearly different hues
     (byBrand[p.brand] = byBrand[p.brand] || []).push({ ...p, distance });
   }
 

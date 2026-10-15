@@ -1,7 +1,8 @@
 // Official conversions: paint swaps chosen by a paint maker, not by color math.
 // Right now that is the Two Thin Coats conversion chart.
 
-import { METHODS } from "./methods.js";
+import { METHODS, MAX_HUE_DIFFERENCE } from "./methods.js";
+import { hueDifference } from "../color/distance.js";
 
 // Find the chart entries for a Citadel paint name. Usually one, or none.
 // "chart" is the contents of src/data/two-thin-coats-chart.json.
@@ -14,14 +15,17 @@ export function findConversions(citadelName, chart) {
 
 // Add the chart's pick to the brand groups from findMatches(), as a normal
 // "Two Thin Coats" brand group, and keep brands ordered by their best match.
-// The chart's pick is always shown, however far its color is: the paint maker chose it.
+// The chart's pick is shown even when its color is far off (the paint maker chose it),
+// but not when its hue is clearly different, the same rule as every other brand.
 export function addChartGroup(groups, chosen, chart, methodKey) {
-  const matches = findConversions(chosen.name, chart).map(c => ({
-    brand: "Two Thin Coats",
-    name: c.twoThinCoats,
-    hex: c.hex,
-    distance: METHODS[methodKey].measure(chosen.hex, c.hex)
-  }));
+  const matches = findConversions(chosen.name, chart)
+    .filter(c => hueDifference(chosen.hex, c.hex) <= MAX_HUE_DIFFERENCE)
+    .map(c => ({
+      brand: "Two Thin Coats",
+      name: c.twoThinCoats,
+      hex: c.hex,
+      distance: METHODS[methodKey].measure(chosen.hex, c.hex)
+    }));
   if (matches.length === 0) return groups;
   return [...groups, { brand: "Two Thin Coats", matches, chart }]
     .sort((a, b) => a.matches[0].distance - b.matches[0].distance);

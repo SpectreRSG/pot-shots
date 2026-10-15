@@ -1,7 +1,7 @@
 // Tests for the color math. Run with: npm test
 import { describe, it, expect } from "vitest";
 import { hexToRgb, hexToLab } from "../src/color/convert.js";
-import { deltaE76, labDistance, rgbDistance } from "../src/color/distance.js";
+import { deltaE76, labDistance, rgbDistance, hueDifference } from "../src/color/distance.js";
 
 describe("hexToRgb", () => {
   it("reads each pair of hex digits as one color channel", () => {
@@ -56,5 +56,27 @@ describe("rgbDistance", () => {
 
   it("is zero for the same color", () => {
     expect(rgbDistance("#9a1115", "#9a1115")).toBe(0);
+  });
+});
+
+describe("hueDifference", () => {
+  it("is zero for the same color and for two greys", () => {
+    expect(hueDifference("#9a1c1c", "#9a1c1c")).toBe(0);
+    expect(hueDifference("#333333", "#cccccc")).toBeCloseTo(0, 5);
+  });
+
+  it("is small for a lighter or darker version of the same hue", () => {
+    // Same hue, just darker: still well under the hide limit of 10.
+    expect(hueDifference("#ff0000", "#800000")).toBeLessThan(5);
+  });
+
+  it("is large for clearly different hues", () => {
+    expect(hueDifference("#ff0000", "#00ff00")).toBeGreaterThan(100);
+    // Real pair from the data: Death Guard Green next to a brown.
+    expect(hueDifference("#848a66", "#a28f7d")).toBeGreaterThan(10);
+  });
+
+  it("is the same in both directions", () => {
+    expect(hueDifference("#1f3a78", "#2c4855")).toBeCloseTo(hueDifference("#2c4855", "#1f3a78"), 10);
   });
 });
